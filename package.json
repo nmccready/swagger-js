@@ -39,7 +39,8 @@
     "test:size": "npm run build:bundle && bundlesize",
     "test:unit": "jest --runInBand",
     "test:unit:watch": "jest --watch",
-    "test:webpack": "mocha-webpack --interactive false --webpack-config ./webpack.test.config.js --recursive \"./test-webpack\""
+    "test:webpack": "mocha-webpack --interactive false --webpack-config ./webpack.test.config.js --recursive \"./test-webpack\"",
+    "clean": "rm -rf browser dist"
   },
   "keywords": [
     "oai",

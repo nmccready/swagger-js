@@ -26,3 +26,4 @@ browser
 release/.version
 package-lock.json
 *.lock
+tmp
