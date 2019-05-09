@@ -24,3 +24,5 @@ browser
 
 # Automated releases
 release/.version
+package-lock.json
+*.lock
